@@ -1,0 +1,85 @@
+body {
+    margin: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+background-image: url("images/ferizaj.jpg");
+background-size: cover;
+padding: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+h1 {
+color: #001219;
+border: 10px solid #e9edc9;
+opacity: 0.6;
+background-color: #e9edc9;
+border-radius: 10px;
+font-size: 32px;
+padding: 0px 15px;
+}
+
+h2 {
+color: #03071e;
+border: 10px solid #dda15e;
+background-color: #dda15e;
+opacity: 0.6;
+border-radius: 10px;
+padding: 5px 20px;
+font-size: 20px;
+margin: 0px 200px;
+}
+
+.activities {
+font-family: Arial, Helvetica, sans-serif;
+color: #1D3557;
+background-color: #F1FAEE;
+font-size: 25px;
+padding: 40px 80px;
+}
+
+.underline {
+    border-bottom: 4px solid #1D3557;
+}
+
+.activites-row {
+    display: flex;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.col {
+padding: 0 20px;
+}
+
+.avatar {
+    width: 240px;
+    height: 248px;
+
+}
+
+.guide {
+    margin: 50px 160px;
+    padding: 20px 13px;
+    border: 1px solid #fcd5ce;
+    display: flex;
+    background-color: #fcd5ce;
+    justify-content: space-evenly;
+    box-shadow: 0px 6px 0px #4d194d;
+    border-radius: 10px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 16px;
+}
